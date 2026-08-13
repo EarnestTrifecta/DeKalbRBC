@@ -2889,7 +2889,7 @@ input, select, textarea {
 
 			.wrapper {
 				margin-bottom: 4em;
-				padding: 4em 3em;
+				padding: 4em 2em;
 			}
 
 				.wrapper.style4 {
@@ -3770,6 +3770,9 @@ iframe {
 			font-size: 1.25em;
 			color:#1c2021;
 			text-align: justify;
+			width: 100%;
+			max-width: 100%;
+			margin: 0 auto;
 }
 
 #back-to-top {
