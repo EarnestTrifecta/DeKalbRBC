@@ -2289,6 +2289,14 @@ input, select, textarea {
 				margin-top: .5em;
 			}
 
+			.wrapper.style1 p+p {
+				margin-top: .5em;
+			}
+
+			.wrapper.style1 p.covenant {
+				margin-top: 1em;
+			}
+
 			.wrapper.style1 img {
 				display: block;
 				margin: 2em auto;
