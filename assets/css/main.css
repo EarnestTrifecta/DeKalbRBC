@@ -2231,7 +2231,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			padding: 0;
+			padding: 0 0 5em;
 			max-width: 100%;
 		}
 
@@ -2771,7 +2771,7 @@ input, select, textarea {
 
 	.no-main-background #main {
 		background-image: none;
-		padding:0em;
+		padding:2em;
 	}
 
 /* CTA */
@@ -2987,6 +2987,10 @@ input, select, textarea {
 		display: none;
 	}
 
+	#mobile-top-text {
+		display: none;
+	}
+
 	#mobile-logo {
     display: none;
 	}
@@ -3015,6 +3019,12 @@ input, select, textarea {
 				header.special h2 + p {
 					padding-top: 1.25em;
 				}
+		
+	
+			section[id] {
+				scroll-margin-top: 50px !important;
+			}
+
 
 		/* Section/Article */
 
@@ -3148,6 +3158,23 @@ input, select, textarea {
 				z-index: 10001;
 			}
 
+			        #mobile-top-text {
+						display: block;
+						position: absolute;
+						top: 5px;
+						left: 50%;
+						transform: translateX(-50%);
+						width: 60%;
+						max-width: 500px;
+						text-align: center;
+						font-family: "Cinzel", serif;
+						font-size: 1.2rem;
+						font-weight: 600;
+						z-index: 9999;
+						color: #ebe8e4;
+					}
+
+
 				#mobile-logo {
 					display: block;
 					position: fixed;
@@ -3213,6 +3240,10 @@ input, select, textarea {
 						top: 10px;
 						width: 60px;
 					}
+
+				section[id] {
+					scroll-margin-top: 70px;
+				}
 
 			#navPanel {
 				-moz-backface-visibility: hidden;
@@ -3722,3 +3753,15 @@ iframe {
 	font-size: 2.5em;
 }
 
+
+section[id]{
+	scroll-margin-top: 150px;
+}
+
+
+	.leadershipimg{
+		display: block;
+		margin: 2em auto;
+		width: 384px;
+		height: 256px;
+	}
