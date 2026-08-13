@@ -2692,6 +2692,7 @@ input, select, textarea {
 	
 	#banner.simplebanner{
 		background-image: none, none,  url("images/overlay.png"), url("../../images/bannerblue.png");
+		padding: 0;
 	}
 
 		#banner .inner {
@@ -2742,6 +2743,7 @@ input, select, textarea {
 				text-align:left;
 				font-size: 1.5em;
 				color: #7c8081 ;
+				padding: 0 .5em 0 .5em;
 				
 			}
 
@@ -3146,7 +3148,6 @@ input, select, textarea {
 					padding: .2em .3em;
 				}
 
-			}
 
 		/* CTA */
 
@@ -3212,7 +3213,7 @@ input, select, textarea {
 				#mobile-logo {
 					display: block;
 					position: fixed;
-					top: 5px;
+					top: 0px;
 					right: 5px;
 					z-index: 10003;
 					border: 0;

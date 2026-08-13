@@ -27,8 +27,10 @@ class MyHeader extends HTMLElement {
                             <ul>
                                 <li><a href="about.html">About Us</a></li>
                                 <li><a href="about-beliefs.html">Our Beliefs</a></li>
+                                <li><a href="familyworship.html">Family Worship</a></li>
                                 <li><a href="sermons.html">Sermons</a></li>
                                 <li><a href="contact.html">Contact</a></li>
+                                
                             </ul>
                         </li>
 
