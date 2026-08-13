@@ -2788,7 +2788,7 @@ input, select, textarea {
 
 	.no-main-background #main {
 		background-image: none;
-		padding:2em;
+		padding: 0em;
 	}
 
 /* CTA */
