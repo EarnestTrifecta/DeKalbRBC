@@ -35,7 +35,7 @@ class MyHeader extends HTMLElement {
                         </li>
 
                         <li>
-                            <a href="visit.html" class="button primary">
+                            <a href="index.html#visit" class="button primary">
                                 Visit Us
                             </a>
                         </li>
